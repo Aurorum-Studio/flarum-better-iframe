@@ -13,43 +13,7 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/Aurorum-Studio/flarum-better-iframe/issues",
-        "source": "https://github.com/Aurorum-Studio/flarum-better-iframe",
-        "forum": "https://discuss.flarum.org",
-        "forum 2(inbuilding)": "https://dev.aurorum.co"
-    },
-    "homepage": "https://dl.aurorum.co",
-    "funding": [
-        {
-            "type": "website",
-            "url": "https://dl.aurorum.co/funding"
-        }
-    ],
-    "require": {
-        "flarum/core": "^1.0.0"
-    },
-    "require-dev": {
-        "flarum/testing": "^1.0.0"
-    },
-    "authors": [
-        {
-            "name": "Aurorum",
-            "email": "xavierpatrick@163.com",
-            "role": "Creator"
-        }
-    ],
-"extra": {
-        "flarum-extension": {
-            "title": "Iframe",
-            "category": "feature",
-            "icon": {
-                "name": "fas fa-browser",
-                "backgroundColor": "#ddd",
-                "color": "#000"
-            }
-        }
-    }
+    
     "minimum-stability": "stable",
     "require": {}
 }
