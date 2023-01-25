@@ -1,37 +1,30 @@
 {
-    "name": " Aurorum-Studio /flarum-better-iframe",
-    "description": "This project is an extension of flarum. This extension allows users to add iframe into their posts,with full all the attributes iframe have, and with every attribute editable. It's beased on zerosonesfun/BBCode - iframe, but it has more attributes, and is more suitable for websites than that extension.",
+    "name": "aurorum/flarum-better-iframe",
+    "description": "A Flarum extension.This extension makes it possible to use <iframe> element in flarum. It allows almost all iframe attributes. It's written by Aurorum Studio. Visit our website: https://dev.aurorum.co .",
     "keywords": [
-         "iframe"
+         "iframe",
+         "flarum",
+         "aurorum"
     ],
     "type": "flarum-extension",
-    "license": "MIT",
     "support": {
         "issues": "https://github.com/Aurorum-Studio/flarum-better-iframe/issues",
         "source": "https://github.com/Aurorum-Studio/flarum-better-iframe",
         "forum": "https://discuss.flarum.org",
-        "forum 2(inbuilding)": "https://dev.aurorum.co"
+        "website": "https://dev.aurorum.co"
     },
-    "homepage": "https://dl.aurorum.co",
-    "funding": [
-        {
-            "type": "website",
-            "url": "https://dl.aurorum.co/funding"
-        }
-    ],
+    "homepage": "https://dev.aurorum.co",
     "require": {
-        "flarum/core": "^1.0.0"
+        "flarum/core": "^1.0"
     },
-    "require-dev": {
-        "flarum/testing": "^1.0.0"
-    },
+    "license": "MIT",
     "authors": [
         {
-            "name": "Aurorum",
-            "email": "xavierpatrick@163.com",
-            "role": "Creator"
+            "name": "Aurorum-Studio"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Aurorum-Studio\\Iframe\\": "src/"
@@ -39,11 +32,10 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Iframe",
-            "category": "feature",
+            "title": "Better-Iframe",
             "icon": {
-                "name": "fas fa-browser",
-                "backgroundColor": "#ddd",
+                "name": "fab fa-phoenix-framework",
+                "backgroundColor": "#238c59",
                 "color": "#000"
             }
         }

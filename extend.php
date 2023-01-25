@@ -20,19 +20,19 @@ return [
     (new Extend\Formatter)
     ->configure(function (Configurator $config) {
          $config->BBCodes->addCustom(
-           '[iframe={URL}]',
+           '[iframe={URL}{width}{height}{fr}{ma}{mh}{scro}]',
            '<div class="iframe">
            <iframe 
              src="{URL}"
-             width="100%"
-             height="600"
-             frameborder="0"
-             marginwidth="0"
-             marginheight="0"
+             width="{width}"
+             height="{height}"
+             frameborder="{fr}"
+             marginwidth="{ma}"
+             marginheight="{mh}"
              vspace="0"
              hspace="0"
              allowtransparency="true"
-             scrolling="no"
+             scrolling="{scro}"
              allowfullscreen="true"
            >
            </iframe>
