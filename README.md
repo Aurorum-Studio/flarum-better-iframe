@@ -1,4 +1,4 @@
-# PLEASE DO NOT install this extension until a known error is solved.
+# Due to a known error, the function is very limited in this version, please DO NOT use v0.04, or versions before.
 
 # Flarum Better Iframe
 
