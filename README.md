@@ -1,3 +1,5 @@
+# PLEASE DO NOT install this extension until a known error is solved.
+
 # Flarum Better Iframe
 
 ## Basic introduction:
