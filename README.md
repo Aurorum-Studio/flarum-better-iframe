@@ -49,4 +49,4 @@ Dev Website: https://dev.aurorum.co/d/90-aurorumflarum-better-iframe
 
 Support Forum: https://flarum.org
 
-## If there is any issue, please contact ,with support forum, or github issues.
+## If there is any issue, please contact ,with support forum, dev website, or github issues.
