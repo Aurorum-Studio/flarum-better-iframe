@@ -47,6 +47,6 @@ Github: https://github.com/Aurorum-Studio/flarum-better-iframe
 
 Dev Website: https://dev.aurorum.co/d/90-aurorumflarum-better-iframe
 
-Support Forum: https://flarum.org
+Support Forum: https://discuss.flarum.org/d/32332-better-iframe
 
 ## If there is any issue, please contact ,with support forum, dev website, or github issues.
