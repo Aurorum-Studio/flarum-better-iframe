@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Aurorum-Studio\Iframe;
+namespace AurorumStudio\Iframe;
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
