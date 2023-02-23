@@ -1,3 +1,5 @@
+This extension works with some of flarum websites, but not for all due to some issue. Use it carefully before it's fixed. However, don't worry, it won't cause website error, the worst thing might happen is that some function of this extension don't work.
+
 # Aurorum/Flarum Better Iframe
 
 ## Basic introduction:
