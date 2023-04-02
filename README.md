@@ -1,5 +1,3 @@
-This extension works with some of flarum websites, but not for all due to some issue. Use it carefully before it's fixed. However, don't worry, it won't cause website error, the worst thing might happen is that some function of this extension don't work.
-
 # Aurorum/Flarum Better Iframe
 
 ## Basic introduction:
@@ -18,20 +16,7 @@ Run the following commands:
     php flarum cache:clear
 
 ## How to use:
-This extension allows most iframe elements to use in Flarum, you can use any of the following formats in your flarum post to use iframe.
-
-           [iframe='URL']
-           [iframe='URL' width='INT1']',
-           [iframe='URL' width='INT1' height='INT2'',
-           [iframe='URL' width='INT1' height='INT2' frameborder='INT3']',
-           [iframe='URL' width='INT1' height='INT2' frameborder='INT3' marginwidth='INT4']',
-           [iframe='URL' width='INT1' height='INT2' frameborder='INT3' marginwidth='INT4' marginheight='INT5']',
-           [iframe='URL' width='INT1' height='INT2' frameborder='INT3' marginwidth='INT4' marginheight='INT5' scrolling='TEXT2']',
-           [iframe='URL' width='INT1' height='INT2' frameborder='INT3' marginwidth='INT4' marginheight='INT5' scrolling='TEXT2' allowtransparency='TEXT1']',
-           // The attributes use the same name they are in iframe, if you are not familiar with iframe, please read the following readme file.
-           // For the 'URL', please add 'https://' protocol name before the url, for 'INT', please enter integer, and for 'TEXT', please enter 'true', or 'false'
-           // Some websites may forbid you from embed their webpage, it would show an error info within the iframe window. Some http, or openssl websites may be forbidded by the browser.
-         
+This extension allows some iframe attributes to use in Flarum, you can use any of the following formats in your flarum post to use iframe.       
        
 ## About iframe:
 Please read this document: https://www.w3schools.com/tags/tag_iframe.asp
