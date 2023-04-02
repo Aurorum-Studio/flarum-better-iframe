@@ -12,31 +12,16 @@
 namespace AurorumStudio\Iframe;
 
 use Flarum\Extend;
-use s9e\TextFormatter\Configurator;
 
-return [ 
-  (new Extend\Frontend('forum'))
-  ->css(__DIR__.'/less/forum.less'),
+return [
     (new Extend\Formatter)
-    ->configure(function (Configurator $config) {
-         $config->BBCodes->addCustom(
-           '[iframe={URL} width={INT1} height={INT2} frameborder={INT3} marginwidth={INT4} marginheight={INT5} scrolling={SIMPLETEXT2} allowtransparency={SIMPLETEXT1}]',
-           '<div class="iframe">
-           <iframe 
-             src="{URL}"
-             width="{INT1}"
-             height="{INT2}"
-             frameborder="{INT3}"
-             marginwidth="{INT4}"
-             marginheight="{INT5}"
-             vspace="0"
-             hspace="0"
-             allowtransparency="{SIMPLETEXT1}"
-             scrolling="{SIMPLETEXT2}"
-             allowfullscreen="true"
-           >
-           </iframe>
-         </div>'
-        );
-    })
+        ->configure(function (\s9e\TextFormatter\Configurator $configurator) {
+            $configurator->HTMLElements->allowUnsafeElement('iframe');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'style');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'src');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'scrolling');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allowfullscreen');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allow');
+        }),
+ 
 ];
