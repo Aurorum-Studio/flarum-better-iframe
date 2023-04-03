@@ -20,7 +20,6 @@ return [
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'style');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'src');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'scrolling');
-            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allowfullscreen');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allow');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allowpaymentrequest');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'credentialless');
@@ -31,7 +30,6 @@ return [
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'referrerpolicy');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'sandbox');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'width');
-            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'srcdoc');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'align');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'frameborder');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'longdesc');
