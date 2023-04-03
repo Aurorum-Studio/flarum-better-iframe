@@ -32,6 +32,8 @@ Please read this document: https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 
 中文：https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe
 
+Note: The attributes `srcdoc`, and `allowfullscreen` are disabled for safety consideration.
+
 ## Demo:
 Live demo: https://dev.aurorum.co/d/88-aurorumflarum-better-iframe-demo  (如果在中国大陆，可能不能打开此链接)
 
