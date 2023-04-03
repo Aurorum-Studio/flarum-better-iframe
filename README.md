@@ -1,4 +1,4 @@
-# Aurorum/Flarum Better Iframe
+# Aurorum/Flarum-Better-Iframe
 
 ## Basic introduction:
 This project is an extension of flarum, an open resource forum web application. This extension allows users to embed a webpage into their posts, using the iframe element.
