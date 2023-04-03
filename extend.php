@@ -22,6 +22,22 @@ return [
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'scrolling');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allowfullscreen');
             $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allow');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'allowpaymentrequest');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'credentialless');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'csp');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'height');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'loading');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'name');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'referrerpolicy');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'sandbox');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'width');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'srcdoc');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'align');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'frameborder');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'longdesc');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'marginheight');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'marginwidth');
+            $configurator->HTMLElements->allowUnsafeAttribute('iframe', 'scrolling');
         }),
  
 ];
