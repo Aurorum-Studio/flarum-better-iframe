@@ -16,11 +16,20 @@ Run the following commands:
     php flarum cache:clear
 
 ## How to use:
-This extension allows some iframe attributes to use in Flarum, you can use any of the following formats in your flarum post to use iframe.       
+This extension allows some iframe attributes to use in Flarum, you can use the code like this to use iframe in your post:
+
+````
+<iframe src="URL"></iframe>
+````
+
+Also, attributes like "style", for inline css are allowed, thus, you can use any of the following attributes, just the same as writing in HTML, a full attributes used example would look like this:
+````
+<iframe src="URL" style="CSS" scrolling="yes/no" allow="attribute"></iframe>
+````
        
-## About iframe:
-Please read this document: https://www.w3schools.com/tags/tag_iframe.asp
-中文：https://www.w3school.com.cn/tags/tag_iframe.asp
+## How to use `<iframe>`:
+Please read this document: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+中文：https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe
 
 ## Demo:
 Live demo: https://dev.aurorum.co/d/88-aurorumflarum-better-iframe-demo  (如果在中国大陆，可能不能打开此链接)
