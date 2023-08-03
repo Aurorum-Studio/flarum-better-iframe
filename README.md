@@ -35,7 +35,7 @@ Please read this document: https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 Note: The attributes `srcdoc`, and `allowfullscreen` are disabled for safety consideration.
 
 ## Demo:
-Live demo: https://dev.aurorum.co/d/88-aurorumflarum-better-iframe-demo  (如果在中国大陆，可能不能打开此链接)
+Live demo: https://dev.aurorum.co/d/88-aurorumflarum-better-iframe-demo
 
 Demo picture:
 ![图片](https://user-images.githubusercontent.com/88573201/215254799-090f5823-1eee-42f3-95fb-dfff05c59571.png)
